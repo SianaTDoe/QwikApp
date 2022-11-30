@@ -1,12 +1,16 @@
-import {component$} from '@builder.io/qwik';
+import {component$, useClientEffect$} from '@builder.io/qwik';
+import {controller, presenter} from '../injection';
 
 export default component$(() => {
 
-    // Injection du controller et du presenter
+    useClientEffect$(() => {
+        controller.searchByQuery();
+    });
 
     return (
         <div>
-            Afficher le contenu du view model à partir du presenter
+            Afficher le contenu du view model à partir du presenter -
+            {presenter.vm}
         </div>
     );
 });
