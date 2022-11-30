@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\header",
+    "\\src\\components\\icons",
+    "\\src\\components\\router-head",
+    "\\src\\routes",
+    "\\src\\routes\\flower"
+  ],
+  "SelectedNode": "\\src\\routes\\layout.tsx",
+  "PreviewInSolutionExplorer": false
+}
